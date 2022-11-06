@@ -34,14 +34,14 @@ if __name__ == "__main__":
         exqueue.put_nowait(i)
     
     # Telethon client creation
-    ttkbot = TortkClient("TorToolkitBot",get_val("API_ID"),get_val("API_HASH"), timeout=20, retry_delay=3, request_retries=10, connection_retries=10)
+    ttkbot = TortkClient("TorToolkitBot",get_val("API_ID"),get_val("API_HASH"), timeout=20, retry_delay=3, request_retries=10, connection_retries=10, ipv6=True)
     ttkbot.queue = queue
     ttkbot.exqueue = exqueue
     ttkbot.start(bot_token=get_val("BOT_TOKEN"))
     logging.info("Telethon Client created.")
 
     # Pyro Client creation and linking
-    pyroclient = Client("pyrosession", api_id=get_val("API_ID"), api_hash=get_val("API_HASH"), bot_token=get_val("BOT_TOKEN"), workers=343)
+    pyroclient = Client("pyrosession", api_id=get_val("API_ID"), api_hash=get_val("API_HASH"), bot_token=get_val("BOT_TOKEN"), workers=343, ipv6=True)
     pyroclient.start()
     ttkbot.pyro = pyroclient
     logging.info("Pryogram Client created.")
