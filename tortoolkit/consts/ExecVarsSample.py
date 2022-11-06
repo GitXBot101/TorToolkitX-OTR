@@ -37,10 +37,10 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DATABASE_URL = "dbname=railway user=postgres password=p3Z8p7c1nI1r13zlxy5Q host=containers-us-west-113.railway.app port=7384"
+        DATABASE_URL = "dbname= user=postgres password=p3Z8p7c1nI1r13zlxy5Q host=ec2-3-227-68-43.compute-1.amazonaws.com port=5432"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
-        #DATABASE_URL = "dbname=tortk user=postgres password=your-pass host=db port=5432"
+        #DATABASE_URL = "dbname=d3i7nf0b1pg7he user=cyohjodftidzth password=8a5ee16d637bd053a9d2116267eb900d0ed22a83e4d2cb6365a9389e97628596 host=ec2-3-227-68-43.compute-1.amazonaws.com port=5432"
         
         # MEGA CONFIG
         MEGA_ENABLE = True
