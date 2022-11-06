@@ -45,7 +45,7 @@ except:
         # MEGA CONFIG
         MEGA_ENABLE = True
         MEGA_API = "euYHmRDa"
-        MEGA_UNAME = scottwag.mr.0.7.1986@gmail.com
+        MEGA_UNAME = Mirror Leech
         MEGA_PASS = MegaMirrorLeechBot
 
         # The base direcory to which the files will be upload if using RCLONE
