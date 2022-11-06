@@ -4,19 +4,19 @@ try:
 except:
     class ExecVars:
         # Set true if its VPS
-        IS_VPS = False
+        IS_VPS = True
         
-        API_HASH = ""
-        API_ID = 0
-        BOT_TOKEN = ""
+        API_HASH = "24ce3cff2d32cf529df1c0018e28d6cf"
+        API_ID = 8978848
+        BOT_TOKEN = "5078575505:AAGoXfcYLrtZVGDvQox2AT1SvMtL4pGhdlo"
         BASE_URL_OF_BOT = ""
 
         # Edit the server port if you want to keep it default though.
         SERVPORT = 80
 
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = []
-        OWNER_ID = 0
+        ALD_USR = [1482769753]
+        OWNER_ID = 1482769753
         
         # Google Drive Index Link should include the base dir also See readme for more info
         GD_INDEX_URL = False
@@ -37,16 +37,16 @@ except:
         REMAINING_STR = "▱"
 
         # DB URI for access
-        DATABASE_URL = "dbname=tortk user=postgres password=your-pass host=127.0.0.1 port=5432"
+        DATABASE_URL = "dbname=railway user=postgres password=p3Z8p7c1nI1r13zlxy5Q host=containers-us-west-113.railway.app port=7384"
         
         # UNCOMMENT THE BELOW LINE WHEN USING CONTAINER AND COMMENT THE UPPER LINE
         #DATABASE_URL = "dbname=tortk user=postgres password=your-pass host=db port=5432"
         
         # MEGA CONFIG
-        MEGA_ENABLE = False
-        MEGA_API = ""
-        MEGA_UNAME = None
-        MEGA_PASS = None
+        MEGA_ENABLE = True
+        MEGA_API = "euYHmRDa"
+        MEGA_UNAME = scottwag.mr.0.7.1986@gmail.com
+        MEGA_PASS = MegaMirrorLeechBot
 
         # The base direcory to which the files will be upload if using RCLONE
         RCLONE_BASE_DIR = "/"
